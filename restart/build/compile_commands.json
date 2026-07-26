@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/Jsh/Documents/programming/horizons nexus project/worlddistorter4572/restart/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles\\wrlddsrt.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\wrlddsrt.dir\\main.cpp.obj -c \"C:\\Users\\Jsh\\Documents\\programming\\horizons nexus project\\worlddistorter4572\\restart\\main.cpp\"",
+  "file": "C:/Users/Jsh/Documents/programming/horizons nexus project/worlddistorter4572/restart/main.cpp",
+  "output": "CMakeFiles/wrlddsrt.dir/main.cpp.obj"
+}
+]
