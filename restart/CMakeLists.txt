@@ -9,7 +9,7 @@ set (CMAKE_AUTOUIC ON)
 find_package(OpenCV REQUIRED COMPONENTS core imgproc highgui)
 find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets)
 
-add_executable(wrlddsrt main.h main.cpp qt.cpp qt.h) 
+add_executable(wrlddsrt main.cpp qt.cpp qt.h) 
 target_include_directories(wrlddsrt PRIVATE ${OpenCV_INCLUDE_DIRS})
 target_link_libraries(wrlddsrt PRIVATE ${OpenCV_LIBS})
 target_link_libraries(wrlddsrt PRIVATE Qt6::Core Qt6::Gui Qt6::Widgets)
